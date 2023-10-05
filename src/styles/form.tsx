@@ -25,11 +25,16 @@ font-size: large;
 `
 
 const BtnAvailable = styled.button`
+cursor: pointer;
 width: 130px;
 padding: 8px;
 margin-left: 10px;
 border-radius: 5px;
 border: 1px solid #cecece;
+&:focus{
+    background-color: #62992f;
+    color: white;
+}
 `
 
 const ContainerInfBtn = styled.button`
@@ -40,4 +45,8 @@ border-radius: 8px;
 border: 1px solid #cecece;
 margin: auto;
 `
-export {Container, ContainerInf, Available, Span, BtnAvailable, ContainerInfBtn }
+
+const Picture = styled.img`
+width: 20px
+`
+export {Container, ContainerInf, Available, Span, BtnAvailable, ContainerInfBtn, Picture }
