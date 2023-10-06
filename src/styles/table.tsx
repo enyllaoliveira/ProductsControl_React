@@ -18,4 +18,10 @@ const Td = styled.td`
     border: 1px solid #cecece;
     text-align: center;
 `
-export { FirstTable, Th, Td }
+
+
+const Picture = styled.img`
+width: 20px`
+
+
+export { FirstTable, Th, Td, Picture }

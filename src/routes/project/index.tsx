@@ -3,6 +3,7 @@ import { Titulo } from '../../styles/project';
 import { Container, ContainerInf, Available, Span, BtnAvailable, ContainerInfBtn } from '../../styles/form';
 import { FirstTable, Th, Td } from '../../styles/table';
 import { useState, useEffect } from 'react';
+import { Picture } from '../../styles/table';
 
 interface Product{
     name:string;
@@ -63,7 +64,7 @@ function Project() {
                 <tr>
                     <Th scope="col"> Nome </Th>
                     <Th scope="col"> Valor  <button onClick={orderByValue}> 
-                        <img src='src\styles\images\two-ways.png' width={20}/>
+                        <Picture src='src\styles\images\two-ways.png'/>
                     </button></Th>
                 </tr> 
         

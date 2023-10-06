@@ -46,7 +46,4 @@ border: 1px solid #cecece;
 margin: auto;
 `
 
-const Picture = styled.img`
-width: 20px
-`
-export {Container, ContainerInf, Available, Span, BtnAvailable, ContainerInfBtn, Picture }
+export {Container, ContainerInf, Available, Span, BtnAvailable, ContainerInfBtn }
