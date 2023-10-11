@@ -8,9 +8,10 @@ width: 100%;
 border-collapse: collapse;
 `
 const Th = styled.th`
-padding: 10px;
+padding: 2px;
 border: 1px solid #cecece;
 text-align: center;
+max-width:30px;
 `
 
 const Td = styled.td`
@@ -18,7 +19,6 @@ const Td = styled.td`
     border: 1px solid #cecece;
     text-align: center;
 `
-
 
 const Picture = styled.img`
 width: 20px`
