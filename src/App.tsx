@@ -1,5 +1,3 @@
-import React from 'react';
-import { useState } from 'react'
 import Project from './routes/project'
 
 function App() {
