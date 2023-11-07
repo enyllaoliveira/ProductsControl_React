@@ -14,7 +14,6 @@ function Project() {
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
     const [productValue, setProductValue] = useState(0);
-    const [available, setAvailable] = useState('');
     const [products, setProducts] = useState<Product[]>([]);
 
     useEffect( () => {
@@ -67,11 +66,9 @@ function Project() {
                         <Picture src='src\styles\images\two-ways.png'/>
                     </button></Th>
                 </tr> 
-        
             </thead>
   
             <tbody>
-    
                  {products.length ? products.map((product: Product, i: number) => 
                 <tr key={i}> 
                     <Td> {product.name} </Td>
@@ -79,9 +76,8 @@ function Project() {
                 </tr>
                 ):null} 
             </tbody>
-    
         </FirstTable>
-     
+
         </div>
     )
 }
